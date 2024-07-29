@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.head {
+    background-color: rgba(255, 255, 255, 0.795);
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.nave {
+    background-color: rgb(0, 47, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nave a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nave a:hover {
+    text-decoration:underline;
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+}
+
+.conteudo {
+    background-color: rgb(73, 139, 200);
+    padding: 2rem;
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.conteudo {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-text {
+    background-color: rgb(228, 228, 228);
+    padding: 1rem;
+    width: 50em;
+}
+
+#cont-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#text {
+    font-size: 1rem;
+}
+
+
+#logo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.fim {
+    background-color: rgb(0, 47, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    padding: 1.5rem;
+}
+
+/* esqueci pra que serve */
+@media screen and (max-width: 480px) {
+
+    .nave a {
+        text-decoration: none;
+        color: white;
+        /* font-size: 0.65em; */
+          font-size: 0.64em;
+        cursor: pointer;
+    }
+    
+
+}
+
+@media screen and (min-width: 1572px) {
+    .nave a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.7em;
+        cursor: pointer;
+    }
+}
